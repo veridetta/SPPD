@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SPPD</string>
+
+
+    <!-- NAVIGATION -->
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_pegawai">Data Pegawai</string>
+    <string name="nav_biaya">Data Biaya</string>
+    <string name="nav_laporan">Data Laporan</string>
+    <string name="nav_setting">Data Setting</string>
+
+    <string name="nav_data_nppd">Data NPPD</string>
+    <string name="nav_data_spt">Data SPT</string>
+    <string name="nav_data_sppd">Data SPPD</string>
+
+    <string name="nav_data_pegawai">Data Pegawai</string>
+    <string name="nav_data_golongan">Data Golongan</string>
+
+    <string name="nav_data_kota">Data Kota</string>
+    <string name="nav_data_biaya_perjalanan">Data Biaya Perjalanan</string>
+    <string name="nav_data_transportasi">Data Transportasi</string>
+
+    <string name="nav_data_kwitansi_laporan">Data Kwitansi</string>
+    <string name="nav_data_perjalanan_dinas">Data Perjalanan Dinas</string>
+
+    <string name="nav_data_kwitansi">Data Kwitansi</string>
+    <string name="nav_data_instansi">Data Instansi</string>
+
+</resources>
