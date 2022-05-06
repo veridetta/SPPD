@@ -5,7 +5,7 @@
       <map>
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.222265625" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_golongan.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_laporan_kwitansi.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_laporan_perjalanan.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
@@ -25,6 +25,7 @@
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_biaya.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_laporan.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_master.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_pegawai.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_setting.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_sppd.xml" value="0.17552083333333332" />

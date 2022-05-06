@@ -20,7 +20,7 @@
                 android:textSize="@dimen/_12sdp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="Data Laporan"/>
+                android:text="Master Laporan"/>
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -28,18 +28,18 @@
             android:alpha="0.3"
             android:layout_marginTop="@dimen/_4sdp"
             android:layout_marginBottom="@dimen/_4sdp"
-            android:background="@color/orange_700"/>
+            android:background="@color/blue_600"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="3">
+            android:weightSum="2">
             <LinearLayout
                 android:layout_width="@dimen/_1sdp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/nav_kwitansi_laporan"
+                    android:id="@+id/nav_data_perjalanan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:cardElevation="@dimen/_2sdp"
@@ -60,13 +60,13 @@
                                 android:layout_gravity="center"
                                 android:layout_width="@dimen/_40sdp"
                                 android:layout_height="@dimen/_40sdp"
-                                android:background="@drawable/file"
-                                android:backgroundTint="@color/orange_700"/>
+                                android:background="@drawable/car"
+                                android:backgroundTint="@color/blue_700"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/orange_700"
+                            android:background="@color/blue_700"
                             android:orientation="horizontal"
                             android:padding="@dimen/_4sdp"
                             android:layout_gravity="center">
@@ -78,7 +78,7 @@
                                 android:textSize="@dimen/_13sdp"
                                 android:textStyle="bold"
                                 android:textColor="@color/white"
-                                android:text="@string/nav_data_kwitansi_laporan"/>
+                                android:text="Data Perjalanan Dinas"/>
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/nav_perjalanan_laporan"
+                    android:id="@+id/nav_riwayat_perjalanan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:cardElevation="@dimen/_2sdp"
@@ -109,13 +109,13 @@
                                 android:layout_gravity="center"
                                 android:layout_width="@dimen/_40sdp"
                                 android:layout_height="@dimen/_40sdp"
-                                android:background="@drawable/file"
-                                android:backgroundTint="@color/orange_700"/>
+                                android:background="@drawable/history"
+                                android:backgroundTint="@color/blue_700"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/orange_700"
+                            android:background="@color/blue_700"
                             android:orientation="horizontal"
                             android:padding="@dimen/_4sdp"
                             android:layout_gravity="center">
@@ -127,7 +127,7 @@
                                 android:textSize="@dimen/_13sdp"
                                 android:textStyle="bold"
                                 android:textColor="@color/white"
-                                android:text="@string/nav_data_perjalanan_dinas"/>
+                                android:text="Data Riwayat Perjalanan Dinas"/>
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

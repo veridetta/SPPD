@@ -45,5 +45,9 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.google.code.gson:gson:2.8.6'
 
+    implementation 'com.github.pratikbutani:MultiSelectSpinner:1.0.1'
+
+    //Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
 
 }

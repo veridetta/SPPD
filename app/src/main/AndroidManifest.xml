@@ -40,7 +40,7 @@
             android:name=".laporan.LaporanPerjalananActivity"
             android:exported="true" />
         <activity
-            android:name=".laporan.LaporanKwitansiActivity"
+            android:name=".laporan.RiwayatPerjalananActivity"
             android:exported="true" />
         <activity
             android:name=".biaya.TransportasiActivity"

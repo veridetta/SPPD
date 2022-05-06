@@ -40,11 +40,8 @@
                         android:layout_marginTop="@dimen/_8sdp"
                         android:text="Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah."/>
 
-                    <include layout="@layout/nav_sppd"/>
-                    <include layout="@layout/nav_pegawai"/>
-                    <include layout="@layout/nav_biaya"/>
+                    <include layout="@layout/nav_master"/>
                     <include layout="@layout/nav_laporan"/>
-                    <include layout="@layout/nav_setting"/>
                 </LinearLayout>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
