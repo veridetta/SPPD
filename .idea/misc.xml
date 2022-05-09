@@ -12,16 +12,21 @@
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_login2.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_nppd.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_riwayat_perjalanan.xml" value="0.1" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_setting_instansi.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_sppd.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_spt.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_spt.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_tambah_biaya.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_tambah_kota.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_tambah_nppdactivity.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_tambah_pegawai.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_tambah_transportasi.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/activity_transportasi.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/item_data_perjalanan.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/item_data_riwayat_perjalanan.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/item_perjalanan_dinas.xml" value="0.22" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/item_spt.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_biaya.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_laporan.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_layout.xml" value="0.17552083333333332" />
@@ -31,6 +36,8 @@
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/nav_sppd.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/layout/slider_item.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/menu/navigation.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/menu/search.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/smile/AndroidStudioProjects/SPPD/app/src/main/res/xml/searchable.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

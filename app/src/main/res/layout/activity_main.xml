@@ -27,6 +27,7 @@
                         android:textSize="@dimen/_12sdp"
                         android:text="Selamat datang,"/>
                     <TextView
+                        android:id="@+id/nama_pegawai"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/teal_900"
