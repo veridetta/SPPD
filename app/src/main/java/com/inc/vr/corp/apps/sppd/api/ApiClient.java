@@ -11,7 +11,7 @@ public class ApiClient {
     public ApiClient() {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://localhost/sppd/api/")
+                .baseUrl("https://sppd.epogame.my.id/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

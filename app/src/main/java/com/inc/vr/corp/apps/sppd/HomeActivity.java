@@ -67,11 +67,10 @@ public class HomeActivity extends AppCompatActivity {
                 Log.i("GGG", "onIndicatorClicked: " + sliderView.getCurrentPagePosition());
             }
         });
-        addNewItem(sliderView, "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        addNewItem(sliderView, "https://sppd.epogame.my.id/assets/assets/img/fotoB.jpg");
         //add new item
-        addNewItem(sliderView, "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-        addNewItem(sliderView, "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-        addNewItem(sliderView, "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        addNewItem(sliderView, "https://sppd.epogame.my.id/assets/assets/img/fotoA.jpeg");
+        addNewItem(sliderView, "https://sppd.epogame.my.id/assets/assets/img/fotoC.jpg");
     }
 
     public void removeLastItem(View view) {
