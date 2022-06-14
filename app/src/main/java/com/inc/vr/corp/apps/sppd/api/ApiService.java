@@ -16,7 +16,8 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.Headers;
 
 public interface ApiService {
-    public static final String BASE_URL = "http://192.168.43.235/sppd/api/";
+    //public static final String BASE_URL = "http://192.168.43.235/sppd/api/";
+    public static final String BASE_URL = "http://sppd.epogame.my.id/api/";
     public static final String LOGIN_URL = BASE_URL + "login.php";
     public static final String RIWAYAT_URL = BASE_URL + "riwayat.php";
     public static final String SPT_URL = BASE_URL + "spt.php";
