@@ -95,13 +95,6 @@ public class SptAdapter extends RecyclerView.Adapter<SptAdapter.MyViewHolder>
                 }
             });
 
-            btn_tambah.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-                }
-            });
-
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
