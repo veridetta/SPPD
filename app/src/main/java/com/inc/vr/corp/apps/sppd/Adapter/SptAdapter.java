@@ -2,6 +2,7 @@ package com.inc.vr.corp.apps.sppd.Adapter;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +10,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,6 +29,10 @@ import com.inc.vr.corp.apps.sppd.model.SptModel;
 import java.util.ArrayList;
 import java.util.List;
 
+import dev.ronnie.github.imagepicker.ImagePicker;
+import dev.ronnie.github.imagepicker.ImageResult;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
 import retrofit2.Call;
 import retrofit2.Response;
 
@@ -37,6 +46,8 @@ public class SptAdapter extends RecyclerView.Adapter<SptAdapter.MyViewHolder>
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView item_spt_title_id,item_spt_no,item_spt_tugas,
                 item_spt_tanggal_pergi,item_spt_tanggal_kembali,item_spt_lama,item_spt_laporan;
+        TableLayout tb_image;
+        Button btn_tambah;
         LinearLayout item_spt_kontent;
         CardView item_spt_id;
 
@@ -50,7 +61,28 @@ public class SptAdapter extends RecyclerView.Adapter<SptAdapter.MyViewHolder>
             item_spt_lama = view.findViewById(R.id.item_spt_lama);
             item_spt_kontent = view.findViewById(R.id.item_spt_kontent);
             item_spt_id = view.findViewById(R.id.item_spt_id);
+            //btn_tambah = view.findViewById(R.id.btn_tambah);
 
+            /* Find Tablelayout defined in main.xml */
+            //tb_image = view.findViewById(R.id.tbl_image);
+            /* Create a new row to be added. */
+            /*
+            Integer dataju = 9;
+            Integer newRow=dataju/3;
+            Integer sudah=1;
+            for (int i =1;i<newRow;i++){
+                //jika i habis dibagi 3
+                TableRow tr =  new TableRow(view.getContext());
+                tr.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
+                for (int a=1;a<4;a++){
+                    Button b = new Button(view.getContext());
+                    b.setText("Btn "+sudah);
+                    b.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
+                    tr.addView(b);
+                    sudah++;
+                }
+                tb_image.addView(tr, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
+            }*/
             item_spt_id.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -63,6 +95,12 @@ public class SptAdapter extends RecyclerView.Adapter<SptAdapter.MyViewHolder>
                 }
             });
 
+            btn_tambah.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -86,7 +124,6 @@ public class SptAdapter extends RecyclerView.Adapter<SptAdapter.MyViewHolder>
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_spt, parent, false);
-
         return new MyViewHolder(itemView);
     }
 

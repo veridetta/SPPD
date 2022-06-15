@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.inc.vr.corp.apps.sppd.laporan.LaporanPerjalananActivity;
 import com.inc.vr.corp.apps.sppd.laporan.RiwayatPerjalananActivity;
 import com.inc.vr.corp.apps.sppd.sppd.SptActivity;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     CardView navBuatNPPD, NavDataSPT, navDataPerjalanan, NavRiwayatPerjalanan;
     TextView nama_pegawai;
+    FloatingActionButton btnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         NavDataSPT = findViewById(R.id.nav_spt);
         navDataPerjalanan = findViewById(R.id.nav_data_perjalanan);
         NavRiwayatPerjalanan = findViewById(R.id.nav_riwayat_perjalanan);
+        btnLogout = findViewById(R.id.btn_logout);
 
          nama_pegawai.setText(nama);
     }
@@ -59,6 +62,15 @@ public class MainActivity extends AppCompatActivity {
         });
         NavRiwayatPerjalanan.setOnClickListener(v -> {
             Intent intent = new Intent(this, RiwayatPerjalananActivity.class);
+            startActivity(intent);
+        });
+        btnLogout.setOnClickListener(view -> {
+            SharedPreferences sharedPreferences = getSharedPreferences("login", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putBoolean("isLogin", false);
+            editor.apply();
+            //pindah activity
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(intent);
         });
     }
